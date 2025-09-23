@@ -36,6 +36,7 @@ public class Exercise4Test {
 
     @Test
     void shouldNotContainBob() {
-
+        Person bob = new Person("Bob");
+        assertThat(list).doesNotContain(bob);
     }
 }
