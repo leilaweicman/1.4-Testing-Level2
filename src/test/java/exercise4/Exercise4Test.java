@@ -26,7 +26,7 @@ public class Exercise4Test {
 
     @Test
     void shouldContainElementsInAnyOrder() {
-
+        assertThat(list).containsExactlyInAnyOrder(decimal, person, number, text);
     }
 
     @Test
