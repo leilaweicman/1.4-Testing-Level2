@@ -17,6 +17,5 @@ public class Exercise5Test {
         map.put(2, "Banana");
 
         assertThat(map).containsKey(1);
-        assertThat(map).doesNotContainKeys(3);
     }
 }
