@@ -31,7 +31,7 @@ public class Exercise4Test {
 
     @Test
     void shouldContainPersonOnlyOnce() {
-
+        assertThat(list).containsOnlyOnce(person);
     }
 
     @Test
