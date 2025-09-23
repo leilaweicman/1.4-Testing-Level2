@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.assertj.core.api.Assertions.assertThat;
 public class Exercise4Test {
 
     private final String text = "Hello";
@@ -20,7 +21,7 @@ public class Exercise4Test {
 
     @Test
     void shouldKeepInsertionOrder() {
-
+        assertThat(list).containsExactly(text, number, person, decimal);
     }
 
     @Test
