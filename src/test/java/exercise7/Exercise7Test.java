@@ -1,6 +1,6 @@
 package exercise7;
 
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
 
